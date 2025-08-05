@@ -5,3 +5,8 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
+
+#Nav{
+  position: fixed;
+  z-index: 10;
+}

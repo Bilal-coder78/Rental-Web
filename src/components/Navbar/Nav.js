@@ -10,6 +10,14 @@ function Nav() {
                 <img src={logo} alt="" width="50px"/>
                 <h1>Private property rental</h1>
             </div>
+            <div class="logo">
+                <img src={logo} alt="" width="50px"/>
+                <h1>Private property rental</h1>
+            </div>
+            <div class="logo">
+                <img src={logo} alt="" width="50px"/>
+                <h1>Private property rental</h1>
+            </div>
         </div>
         <div className="nav2"></div>
     </div>

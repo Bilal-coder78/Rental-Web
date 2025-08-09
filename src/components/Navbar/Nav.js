@@ -1,25 +1,31 @@
 import React from 'react'
 import "./Nav.css"
+import { CiSearch } from "react-icons/ci";
+import { GiHamburgerMenu } from "react-icons/gi";
+import { CgProfile } from "react-icons/cg";
 import logo from "../../assets/p.jpg"
 
 function Nav() {
   return (
     <div id='Nav'>
         <div className="nav1">
-            <div class="logo">
+            <div className="logo">
                 <img src={logo} alt="" width="50px"/>
                 <h1>Private property rental</h1>
             </div>
-            <div class="logo">
-                <img src={logo} alt="" width="50px"/>
-                <h1>Private property rental</h1>
+            <div className="Search">
+                <input type="text" placeholder='Search destination'/>
+                <button>Search<CiSearch /></button>
             </div>
-            <div class="logo">
-                <img src={logo} alt="" width="50px"/>
-                <h1>Private property rental</h1>
+            <div className="ham">
+                <button className='btn1'>List Your Home</button>
+                <button className='btn2'><GiHamburgerMenu />
+                <CgProfile /></button>
             </div>
         </div>
-        <div className="nav2"></div>
+        <div className="nav2">
+            
+        </div>
     </div>
   )
 }

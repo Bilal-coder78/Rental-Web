@@ -19,8 +19,10 @@ function Nav() {
             </div>
             <div className="ham">
                 <button className='btn1'>List Your Home</button>
-                <button className='btn2'><GiHamburgerMenu />
-                <CgProfile /></button>
+                <button className='btn2'>
+                <GiHamburgerMenu id='svg1'/>
+                <CgProfile id='svg2'/>
+                </button>
             </div>
         </div>
         <div className="nav2">

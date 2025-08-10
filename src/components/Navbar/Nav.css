@@ -139,3 +139,34 @@
 .btn2:hover{
     box-shadow: 2px 2px 10px black;
 }
+
+.hamburger{
+    position: absolute;
+    width: 200px;
+    height: 210px;
+    background-color: white;
+    box-shadow: 2px 2px 10px rgb(107, 107, 107);
+    top: 45%;
+    right: 3%;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    padding: 10px;
+}
+
+.ham1{
+    padding: 10px;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 300;
+    color: black;
+    width: 100%;
+    border-radius: 30px;
+}
+
+.ham1:hover{
+    background-color: rgb(231, 231, 231);
+}

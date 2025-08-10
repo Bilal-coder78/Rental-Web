@@ -26,10 +26,10 @@ function Nav() {
             </div>
             <div className="ham">
                 <button className='btn1'>List Your Home</button>
-                <button className='btn2'>
-                <GiHamburgerMenu id='svg1' onClick={()=>{
+                <button className='btn2' onClick={()=>{
                     setvisible(prev=>!prev)
-                }}/>
+                }}>
+                <GiHamburgerMenu id='svg1'/>
                 <CgProfile id='svg2'/>
                 </button>
             </div>
